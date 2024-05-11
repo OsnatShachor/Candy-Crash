@@ -1,0 +1,223 @@
+.show {
+  display: block !important;
+}
+
+.active {
+  display: block;
+}
+
+.notActive {
+  display: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url("../pictures/sign.jpg");
+  max-width: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  /* background: #e9d3ef; */
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
+}
+
+#form {
+  background: rgba(19, 35, 47, 0.2);
+  padding: 40px;
+  margin-top: 180px;
+  margin-left: 575px;
+  min-width: 700px;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+.register-buttons {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+.register-buttons:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.register-buttons li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  background: rgba(160, 179, 176, 0.4);
+  color: #ffffff;
+  font-size: 20px;
+  float: left;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.register-buttons li a:hover {
+  background: #37bfe4;
+  ;
+  color: #ffffff;
+}
+
+.register-buttons a {
+  background: #ba019b;
+  color: #ffffff;
+}
+
+/* .content>div:last-child {
+  display: none;
+} */
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 300;
+  margin: 0 0 40px;
+}
+
+
+.input,
+textarea {
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 0;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.input,
+textarea {
+  outline: 0;
+  border-color: #ba019b;
+}
+
+textarea {
+  border: 2px solid #ffffff;
+  resize: vertical;
+}
+
+.User-fill {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+
+.name>div {
+  display: inline-block;
+
+}
+
+#name,
+#lastName {
+  width: 48%;
+  margin-right: 4%;
+}
+
+
+.button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background: #ba019b;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.button:hover,
+.button:focus {
+  background: #37bfe4;
+}
+
+.button-block {
+  display: block;
+  width: 100%;
+}
+
+h2 {
+  font-family: "Fb Rotem";
+  text-align: center;
+  color: #ffffff;
+  font-size: 350%;
+  font-weight: 300;
+  margin: 0 0;
+
+}
+
+textarea {
+  width: 300px;
+  height: 250px;
+}
+
+
+#textArea {
+  background: rgba(19, 35, 47, 0.9);
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+  @media only screen and (max-width: 600px) {
+    #form {
+      margin-left: 140px;
+      min-width: 360px;
+    }
+    .button {
+      font-size: 1rem;
+    }
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    #form {
+      margin-left: 280px;
+      min-width: 480px;
+    }
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    #form {
+      margin-left: 300px;
+      max-width: 600px;
+    }
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    #form {
+      margin-left: 320px;
+      min-width: 700px;
+    }
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    #form {
+      margin-left: 575px;
+      min-width: 700px;
+    }
+  }

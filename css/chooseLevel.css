@@ -1,0 +1,95 @@
+body {
+  background-image: url("../pictures/abstract-background-with-3d-spheres_87202-1040.jpg");
+  max-width: 100vh;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  margin-top: 0%;
+  font-family: "Titillium Web", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#helloUser {
+  color: azure;
+  margin-bottom: 0px;
+  margin-left: 100px;
+  margin-right: auto;
+  font-size: 50px;
+  -webkit-text-stroke: 2.5px rgb(34, 34, 34);
+  width: 1700px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+h1 {
+  color: azure;
+  margin-left: 100px;
+  margin-right: auto;
+  font-size: 70px;
+  -webkit-text-stroke: 2.5px rgb(34, 34, 34);
+  width: 1700px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+img:hover {
+  transform: scale(1.5);
+  -webkit-transition-duration: 5s;
+  transition-duration: 5s;
+}
+
+.button {
+  width: 500px;
+  height: 280px;
+  margin-bottom: 0px;
+  padding-bottom: 0%;
+  padding: 0px;
+}
+
+#flexButton {
+  display: flex;
+  margin-left: 200px;
+}
+
+/* body {
+  background-image: url("../pictures/candy-crush-background-2.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: "Titillium Web", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#helloUser {
+  color: azure;
+  font-size: 4vw;
+  -webkit-text-stroke: 2.5px rgb(34, 34, 34);
+  text-align: center;
+  margin-top: 5vh;
+}
+
+h1 {
+  color: azure;
+  font-size: 6vw;
+  -webkit-text-stroke: 2.5px rgb(34, 34, 34);
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.button {
+  width: 90%;
+  height: 30vh;
+  margin: 0 auto;
+  margin-bottom: 5vh;
+}
+
+#flexButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+} */

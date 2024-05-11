@@ -1,0 +1,149 @@
+.menu {
+    align-items: center;
+    background-color:  #ba019b;
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    margin-top: 0px;
+}
+
+.menu a {
+    float: left;
+    color:   #fcfcfc;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    background-color:  #37bfe4;
+    color: rgb(255, 255, 255);
+}
+
+html,
+body,
+main {
+    background-image: url("../pictures/sign.jpg");
+     /* max-width: 100vh; */
+    background-attachment: fixed;
+   background-position: center;
+    background-size: cover; 
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    margin: 0;
+    font-family: "Titillium Web",'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* background-color: #fcfcfc; */
+}
+
+/* #opening {
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+} */
+
+main {
+    height:100%;
+}
+
+
+
+.begin {
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: transparent;
+    position: absolute;
+    top: 10px;
+    padding: 0px;
+}
+
+h1{
+    margin:auto;
+}
+h3 {
+
+    padding: 0px;
+    font-size: 500%;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: #ba019b;
+    margin-left: auto;
+    margin-right: auto;
+    margin:auto;
+padding-top: 100px;
+}
+
+.order {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    -ms-flex: 20%;
+    flex: 20%;
+    padding: 0 4px;
+    grid-gap: 10px;
+}
+/* Create two equal columns that sits next to each other */
+
+
+a h4 {
+    margin-top: -50%;
+    padding-right: 20%;
+    color: black;
+    font-size: 250%;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #10101000;
+    text-decoration: none;
+}
+
+a:hover h4 {
+    color:  #fcfcfc !important;
+    -webkit-text-stroke: 2px rgb(34, 34, 34);
+}
+
+.buttonGalery:hover {
+    box-shadow: 15px 15px 20px  #fcfcfc
+}
+
+a {
+    text-decoration: none;
+}
+
+.buttonGalery {
+    min-height: 70px;
+    min-width: 110px;
+    object-fit: cover;
+    height: 250px;
+    width: 350px;
+    margin-bottom: 70px;
+}
+
+.buttonGalery img {
+    height: 200px;
+    width: 350px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .menu a {
+        font-size: 16px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media screen and (min-width: 600px) {
+   
+  
+}

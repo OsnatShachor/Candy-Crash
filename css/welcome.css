@@ -1,0 +1,68 @@
+.menu {
+    align-items: center;
+    background-color:  #ba019b;;
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu a {
+    float: left;
+    color:   #fcfcfc;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    background-color:  #37bfe4;
+    color: rgb(255, 255, 255);
+}
+
+html,
+body,
+main {
+    background-image: url("../pictures/timePlay.jpg");
+    /* max-width: 100vh; */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+     /* height: 100%; */
+    width: 100%;
+     margin-top: 0px; 
+    margin: 0; 
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+main {
+    height:100%;
+}
+
+.parent {
+    position: relative;
+}
+
+/* @media only screen and (max-width: 600px) {
+    #meHead {
+        font-size: 23px;
+    } 
+    #opening {
+        height: 40%;
+        width: 100%;
+    }
+    .menu a {
+        font-size: 16px;
+    }
+} */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* 
+@media screen and (min-width: 600px) {
+    #meHead {
+        font-size: 23px;
+    }
+    #opening {
+        height: 40%;
+        width: 100%;
+    }
+} */

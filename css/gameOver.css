@@ -1,0 +1,13 @@
+body {
+    background-image: url("../pictures/GameOver.jpg");
+    max-width: 60%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:50%;
+    background-repeat: no-repeat;
+    background-color: rgb(27, 25, 25);
+  }
+  .button{
+    width: 300px;
+    height: 170px;
+  }
